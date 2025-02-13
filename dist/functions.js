@@ -22,3 +22,4 @@
 // }
 // console.log(add(1, 2, ...[5, 6, 7]));
 // console.log(add(1, 2, 3, 4, 5, 6, 7, 7, 7, 7, 7, 7, 7, 7));
+//# sourceMappingURL=functions.js.map

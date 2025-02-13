@@ -35,3 +35,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // swapNums = swapNumbers(10, 20);
 // console.log(swapNums);
 // console.log(swapNums[0]);
+//# sourceMappingURL=datatypes.js.map

@@ -6,3 +6,4 @@ let concatResult = getItems([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 let concatString = getItems(["a", "b", "c", "d", "e", "f", "g", "h", "i"]);
 console.log(concatResult);
 console.log(concatString);
+//# sourceMappingURL=generics.js.map

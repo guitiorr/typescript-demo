@@ -54,3 +54,4 @@ console.log(senator.getNameWithAddress());
 // console.log(tio);
 // let tioNameWithAddress = tio.getNameWithAddress();
 // console.log(tioNameWithAddress);
+//# sourceMappingURL=classes.js.map

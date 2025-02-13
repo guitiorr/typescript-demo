@@ -19,3 +19,4 @@ console.log(user2);
 console.log(user3);
 console.log(restUsers);
 let employee = { name: "Tio", id: 1, email: "tio@gmail.com", salary: 1000 };
+//# sourceMappingURL=interface.js.map
