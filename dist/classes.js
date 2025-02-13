@@ -6,12 +6,16 @@ var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (
     return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
 };
 var _Employee_id;
+Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
     constructor(id, name, address) {
         _Employee_id.set(this, void 0);
         __classPrivateFieldSet(this, _Employee_id, id, "f");
         this.name = name;
         this.address = address;
+    }
+    login() {
+        return { name: "John", id: 1, email: "owyeah@gmail.com" };
     }
     getNameWithAddress() {
         return `${this.name} lives in ${this.address.street}, ${this.address.city}, ${this.address.state} (${this.address.pin})`;

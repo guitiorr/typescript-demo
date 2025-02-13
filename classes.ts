@@ -1,3 +1,6 @@
+import { Login } from "./interface";
+import { User } from "./interface";
+
 interface Address{
     street: string;
     city: string;
@@ -5,7 +8,7 @@ interface Address{
     pin: string;
 }
 
-class Employee {
+class Employee implements Login{
     #id!: number;
     protected name!: string;
     address!: Address;
@@ -14,6 +17,9 @@ class Employee {
         this.#id = id;
         this.name = name;
         this.address = address;
+    }
+    login(): User {
+        return {name: "John", id: 1, email: "owyeah@gmail.com"};
     }
 
     getNameWithAddress() : string{
